@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ⛅ Weather Report</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1><%=c%></h1><br>
+    
+    <div class="temp"><%=t%>&#176;C.</div>
+    <h2>Feels Like  <%=f%> &#176; C & Humidity is <%=h%>%</h2>
+    <p>
+        <h3>The Weather is currently <%=w%></h3>
+    </p>
+    <img src="<%=i%>" alt="" srcset="" height="100px">
+    <form action="/success" method="post">
+        <button class="btn btn-lg btn-warning" type="submit" name="button">Go Back.</button>
+    </form>
+    <footer id="footer">
+        Made with ❤️ by Mayank.
+    </footer>
+</body>
+</html>

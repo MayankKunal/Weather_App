@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    background-image: url("/Images/weather.jpg");
+    background-size:cover;
+}
+h1{
+    color:#00FFAB;
+     font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+    color: #5902EC;
+}
+h3{
+    font-size: 2.5rem;
+}
+.temp{
+    font-size:5rem;
+    color: darksalmon;
+}
+.btn {
+    background: #34d9cb;
+    background-image: -webkit-linear-gradient(top, #34d9cb, #2980b9);
+    background-image: -moz-linear-gradient(top, #34d9cb, #2980b9);
+    background-image: -ms-linear-gradient(top, #34d9cb, #2980b9);
+    background-image: -o-linear-gradient(top, #34d9cb, #2980b9);
+    background-image: linear-gradient(to bottom, #34d9cb, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc3cbf;
+    background-image: -webkit-linear-gradient(top, #fc3cbf, #3498db);
+    background-image: -moz-linear-gradient(top, #fc3cbf, #3498db);
+    background-image: -ms-linear-gradient(top, #fc3cbf, #3498db);
+    background-image: -o-linear-gradient(top, #fc3cbf, #3498db);
+    background-image: linear-gradient(to bottom, #fc3cbf, #3498db);
+    text-decoration: none;
+  }
+#location {
+    padding: 10px;
+}
+footer{
+    margin-top: 8%;
+    font-size: 2rem;
+}
+@media (max-width:980px) {
+    body{
+      background-image: url("/Images/phone.jpg");
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.2rem;
+        color: #F7E2E2;
+    }
+    h3{
+        font-size: 1rem;
+        color:#FF9292 ;
+    }
+    footer{
+        color:#00B4D8;
+        margin-top: 40%;
+    }
+    p{
+        color: #A2D5AB;
+    }
+}
